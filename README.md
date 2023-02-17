@@ -7,11 +7,6 @@ Algorythm is very simple.
 - Remove the rectangles above which does not lie inside all rectangles. This step gives the non-overlapped union of the rectangles.
 - Then choose or remove the rectangles which lies inside the subject rectangles according to boolean operation union, intersect or subtract.
 
-## Example Demo
-
-[View](https://htmlpreview.github.io/?https://github.com/winaungcho/PHP-RECTSLIB/blob/main/src/example.php)
-
-
 ## Check with Images
 ### Original Rectangkes
 
