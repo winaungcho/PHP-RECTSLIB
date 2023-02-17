@@ -10,11 +10,11 @@ Algorythm is very simple.
 ## Check with Images
 ### Original Rectangkes
 
-A-GREEN-{10,10:300,200}
-B-RED-{40,30:200,300}
-C-ORANGE-{150,40:400,150}
-D-BLUE-{140,320:200,400}
-E-BROWN-{80,160:250,250}
+- A-GREEN-{10,10:300,200}
+- B-RED-{40,30:200,300}
+- C-ORANGE-{150,40:400,150}
+- D-BLUE-{140,320:200,400}
+- E-BROWN-{80,160:250,250}
 
 ![PHP-RECTSLIB](images/rectsorigin.png)
 
