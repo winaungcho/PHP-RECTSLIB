@@ -7,6 +7,19 @@ Algorythm is very simple.
 - Remove the rectangles above which does not lie inside all rectangles. This step gives the non-overlapped union of the rectangles.
 - Then choose or remove the rectangles which lies inside the subject rectangles according to boolean operation union, intersect or subtract.
 
+## Operation procedure
+###1. Create rectangles
+Rectangles are represenred by the associative array in which diagonal points p1 and p2 are stored. Other variables for drawing are name, color and state. Point p1 is always upper left corner and p2 is for lower right of rectangles so that p1 has smaller value of x and y then p2.
+###2. Merge all rectangles into mesh
+List all x and y coordinates from the corner points p1, p2 of rectangles. Sort x and y list and then create rectangles for all x and y. Get (n-1)^2 mesh rectangles for n original rectangles.
+###3. Generate rectangle operation
+Select mesh by checking inside or not the desired rectangles which for logical operation.
+Eg. 
+If A B C D E are the recangles, 
+-For unioun of [A B C] & [D E], mesh must be lied in side both of [A B C] & [D E].
+-For subtract [D E] from [A B C D], mesh must be inside the [A B C D] and outside of [D E].
+-For intersect [A B C] & [D E], mesh must bbe inside of both [A B C] & [D E].
+
 ## Check with Images
 ### Original Rectangkes
 
