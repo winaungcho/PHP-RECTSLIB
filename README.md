@@ -1,6 +1,6 @@
 # PHP-RECTSLIB
 This class Lib help you to construct the rectangles using various logical operations such as Union, Intersect abd Subtract.
-
+[JScript version](https://github.com/winaungcho/JS-RECTSLIB)
 ## Algorythm
 Algorythm is very simple.
 - A region on which contains all the rectangles is divided into several rectangles according to the corners of the rectangles.
