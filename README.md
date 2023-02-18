@@ -20,7 +20,7 @@ $E = $rectslib->p1p2(80, 160, 250, 250, "E", $brown);
 $rects = [$A, $B, $C, $D, $E];
 ````
 ### Merge all rectangles into mesh
-List all x and y coordinates from the corner points p1, p2 of rectangles. Sort x and y list and then create rectangles for all x and y. Get (n-1)^2 mesh rectangles for n original rectangles.
+List all x and y coordinates from the corner points p1, p2 of rectangles. Sort x and y list and then create rectangles for all x and y. Get (2n-1)^2 mesh rectangles for n original rectangles.
 ````php
 $all = $rectslib->merge($rects, $grey);
 ````
@@ -30,7 +30,7 @@ Eg.
 If A B C D E are the recangles, 
 - For union of [A B C] & [D E], mesh must be lied in side both of [A B C] & [D E].
 - For subtract [B E] from [A B C D], mesh must be inside the [A B C D] and outside of [B E].
-- For intersect [A B C D] & [B E], mesh must bbe inside of both [A B C] & [D E].
+- For intersect [A B C D] & [B E], mesh must be inside of both [A B C] & [D E].
 ````php
 $uni = $rectslib->union([$A, $B, $C], [$E, $D]);
 $subt = $rectslib->subtract([$A, $B, $C, $D], [$B, $E]);
