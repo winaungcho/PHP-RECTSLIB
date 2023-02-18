@@ -29,7 +29,7 @@ Select mesh by checking inside or not the desired rectangles which for logical o
 Eg. 
 If A B C D E are the recangles, 
 - For union of [A B C] & [D E], mesh must be lied in side both of [A B C] & [D E].
-- For subtract [B E] from [A B C D], mesh must be inside the [A B C D] and outside of [D E].
+- For subtract [B E] from [A B C D], mesh must be inside the [A B C D] and outside of [B E].
 - For intersect [A B C D] & [B E], mesh must bbe inside of both [A B C] & [D E].
 ````php
 $uni = $rectslib->union([$A, $B, $C], [$E, $D]);
