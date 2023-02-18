@@ -16,9 +16,9 @@ List all x and y coordinates from the corner points p1, p2 of rectangles. Sort x
 Select mesh by checking inside or not the desired rectangles which for logical operation.
 Eg. 
 If A B C D E are the recangles, 
--For unioun of [A B C] & [D E], mesh must be lied in side both of [A B C] & [D E].
--For subtract [D E] from [A B C D], mesh must be inside the [A B C D] and outside of [D E].
--For intersect [A B C] & [D E], mesh must bbe inside of both [A B C] & [D E].
+- For unioun of [A B C] & [D E], mesh must be lied in side both of [A B C] & [D E].
+- For subtract [D E] from [A B C D], mesh must be inside the [A B C D] and outside of [D E].
+- For intersect [A B C] & [D E], mesh must bbe inside of both [A B C] & [D E].
 
 ## Check with Images
 ### Original Rectangkes
