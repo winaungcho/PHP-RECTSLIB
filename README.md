@@ -36,6 +36,15 @@ $uni = $rectslib->union([$A, $B, $C], [$E, $D]);
 $subt = $rectslib->subtract([$A, $B, $C, $D], [$B, $E]);
 $Intersect = $rectslib->intersect([$A, $B, $C, $D], [$B, $E]);
 ````
+
+### Generate bounding edges
+Generate edges of each rectangles and select external edges by removing common edges.
+
+````php
+$edges = $rectslib->genEdges($subt);
+$rectslib->drawEdges($img, $edges, $white);
+````
+
 ## Check with Images
 ### Original Rectangles
 
