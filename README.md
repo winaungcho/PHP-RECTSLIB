@@ -1,5 +1,5 @@
 # PHP-RECTSLIB
-This class Lib help you to construct the rectangles using various logical operations such as Union, Intersect abd Subtract.
+This class Lib help you to construct the rectangles using various logical operations such as Union, Intersect and Subtract.
 [JScript version](https://github.com/winaungcho/JS-RECTSLIB)
 ## Algorythm
 Algorythm is very simple.
@@ -51,18 +51,18 @@ $Intersect = $rectslib->intersect([$A, $B, $C, $D], [$B, $E]);
 ![PHP-RECTSLIB](images/rectsuniversal.png)
 
 ### Meshing and get union of rectangles
-Union of [A B] & [C D]
-[A B] ⋃ [C D]
+* Union of [A B] & [C D]
+* [A B] ⋃ [C D]
 ![PHP-RECTSLIB](images/rectsunion.png)
 
 ### Intersection of all with 2 rectangles
-Intersect of [A B C D] & [B E]
-[A B C D] ⋂ [B E]
+* Intersect of [A B C D] & [B E]
+* [A B C D] ⋂ [B E]
 ![PHP-RECTSLIB](images/rectsintersect.png)
 
 ### Subtract of 2 from all
-Subtract [B E] from [A B C D]
-[A B C D] - [B E]
+* Subtract [B E] from [A B C D]
+* [A B C D] - [B E]
 ![PHP-RECTSLIB](images/rectssubtract.png)
 
 ## Contact
