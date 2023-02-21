@@ -1,5 +1,5 @@
 # PHP-RECTSLIB
-This class Lib help you to construct the rectangles using various logical operations such as Union, Intersect and Subtract.
+This class Lib help you to construct the rectangles using various logical operations such as Union, Intersect and Subtract. It will generate the border edges of non-overlapped rectangles.
 [JScript version](https://github.com/winaungcho/JS-RECTSLIB)
 ## Algorythm
 Algorythm is very simple.
