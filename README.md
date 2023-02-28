@@ -54,25 +54,25 @@ $rectslib->drawEdges($img, $edges, $white);
 - D-BLUE-{140,320:200,400}
 - E-BROWN-{80,160:250,250}
 
-![PHP-RECTSLIB](images/rectsorigin.png)
+![PHP-RECTSLIB](https://raw.githubusercontent.com/winaungcho/PHP-RECTSLIB/main/images/rectsorigin.png)
 
 ### Start meshing for all rectangles
-![PHP-RECTSLIB](images/rectsuniversal.png)
+![PHP-RECTSLIB](https://raw.githubusercontent.com/winaungcho/PHP-RECTSLIB/main/images/rectsuniversal.png)
 
 ### Meshing and get union of rectangles
 * Union of [A B] & [C D]
 * [A B] ⋃ [C D]
-![PHP-RECTSLIB](images/rectsunion.png)
+![PHP-RECTSLIB](https://raw.githubusercontent.com/winaungcho/PHP-RECTSLIB/main/images/rectsunion.png)
 
 ### Intersection of all with 2 rectangles
 * Intersect of [A B C D] & [B E]
 * [A B C D] ⋂ [B E]
-![PHP-RECTSLIB](images/rectsintersect.png)
+![PHP-RECTSLIB](https://raw.githubusercontent.com/winaungcho/PHP-RECTSLIB/main/images/rectsintersect.png)
 
 ### Subtract of 2 from all
 * Subtract [B E] from [A B C D]
 * [A B C D] - [B E]
-![PHP-RECTSLIB](images/rectssubtract.png)
+![PHP-RECTSLIB](https://raw.githubusercontent.com/winaungcho/PHP-RECTSLIB/main/images/rectssubtract.png)
 
 ## Contact
 Contact me for comercial use via mail winaungcho@gmail.com.
